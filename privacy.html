@@ -11,16 +11,16 @@
   <header><img src="icon.png" alt=""><a href="index.html">Two Skies</a></header>
 
   <h1>Privacy Policy</h1>
-  <p class="muted">Last updated: 1 October 2026. This version covers the invite-only beta.</p>
+  <p class="muted">Last updated: 2 October 2026. This version covers the invite-only beta.</p>
 
-  <p>Two Skies lets you send a photo of what you see right now and receive one from somebody else, anonymously. We collect as little as possible to make that work.</p>
+  <p>Two Skies lets you send a photo of what you see right now and receive one from somebody else, anonymously: nobody you exchange photos with ever learns who you are. We collect as little as possible to make that work.</p>
 
   <h2>Who is responsible</h2>
   <p>Patrik Fl&iacute;gr, contact: <a href="mailto:fligr.patrik@gmail.com">fligr.patrik@gmail.com</a>. This person is the data controller under the EU General Data Protection Regulation (GDPR).</p>
 
   <h2>What we do not collect</h2>
   <ul>
-    <li>No name, email address, phone number or contacts.</li>
+    <li>No phone number, contacts or public profile. What Google tells us about your account stays with us and is never shown to anyone.</li>
     <li>No GPS or precise location. The app never asks for location access.</li>
     <li>No advertising identifiers, no ads, no analytics or tracking tools.</li>
     <li>No access to your photo library. The camera is used only while you take a photo in the app; saving a photo to Photos asks only for permission to <em>add</em> photos.</li>
@@ -28,10 +28,10 @@
 
   <h2>What we collect and why</h2>
   <ul>
-    <li><strong>An anonymous account ID</strong>, created automatically the first time you send a photo. It is not linked to your name, email or Apple / Google account. Purpose: to deliver photos, apply the daily limit and let you block people.</li>
+    <li><strong>Your account</strong>: you sign in with Google (and, on iPhone, soon also with Apple). Google sends us your Google account ID, email address, name and profile picture link; our sign-in service keeps them with your account. We use only the account ID and email, and never show any of it to anyone. Purpose: to keep your account yours on a new phone, deliver photos, apply the daily limit, let you block people and make bans stick. People who used the app before sign-in existed have an anonymous account ID, which is linked to their Google account when they sign in.</li>
     <li><strong>The photos you send.</strong> Before a photo leaves your phone the app resizes it and removes all metadata (EXIF, GPS, camera model). Purpose: to show it to one other person.</li>
     <li><strong>Context shown with your photo:</strong> your local time when you sent it (for example 06:40), your local date (for the daily limit), and your country and continent, worked out from your phone's time zone (for example Europe/Prague means Czechia). Never a city, a place or GPS - nothing more precise than a whole country.</li>
-    <li><strong>Exchanges and reactions:</strong> which photo went to which anonymous account, the reaction chosen and the part of day it was sent (morning, afternoon, evening, night). Purpose: to tell you where your moment went and how it was received.</li>
+    <li><strong>Exchanges and reactions:</strong> which photo went to which account, the reaction chosen and the part of day it was sent (morning, afternoon, evening, night). Purpose: to tell you where your moment went and how it was received.</li>
     <li><strong>Reports and blocks</strong> you make, and moderation decisions about your photos. Purpose: keeping the app safe.</li>
     <li><strong>Technical logs</strong> (such as IP address and time of a request), kept briefly by our hosting provider for security and troubleshooting.</li>
   </ul>
@@ -39,7 +39,7 @@
 
   <h2>Who can see what</h2>
   <ul>
-    <li><strong>The person who receives your photo</strong> sees the photo, your local time and your country (shown as the whole country on a small globe). Never your account ID or anything that identifies you. In return, the person whose photo you receive learns that it reached someone in your country, and your reaction and part of the day if you react.</li>
+    <li><strong>The person who receives your photo</strong> sees the photo, your local time and your country (shown as the whole country on a small globe). Never your name, email, account ID or anything that identifies you. In return, the person whose photo you receive learns that it reached someone in your country, and your reaction and part of the day if you react.</li>
     <li><strong>Our moderator</strong> checks the first photos of every new account before anyone receives them, and reviews reported photos. The moderator sees the photo and anonymous statistics (how many photos an account sent and how many were reported), not who you are. Photos from accounts in good standing go out without waiting.</li>
     <li><strong>A check on your phone</strong> looks for faces up close and for contact details (phone numbers, emails, handles, links) before a photo is sent, using your phone's own system (Apple Vision on iPhone, Google ML Kit on Android). It runs entirely on your phone. A photo with a face up close stays with you. If you send a photo that seems to show contact details anyway, the bit of text the check found is sent along so our moderator knows what to look at.</li>
     <li><strong>Reminders</strong> are scheduled on your phone itself (now and then, after a few days without the app) and can be switched off in Settings. No server is involved.</li>
@@ -47,7 +47,7 @@
   </ul>
 
   <h2>Service providers</h2>
-  <p>We use <strong>Supabase</strong> (database, photo storage and anonymous sign-in). Our data is stored in the EU (Frankfurt, Germany). Supabase, Inc. is based in the USA and may process data under the EU Standard Contractual Clauses. The app is distributed through Apple (App Store / TestFlight) and Google (Google Play), which have their own privacy policies.</p>
+  <p>We use <strong>Supabase</strong> (database, photo storage and sign-in) and <strong>Google Sign-In</strong> to confirm your Google account. Our data is stored in the EU (Frankfurt, Germany). Supabase, Inc. is based in the USA and may process data under the EU Standard Contractual Clauses. The app is distributed through Apple (App Store / TestFlight) and Google (Google Play), which have their own privacy policies.</p>
 
   <h2>On your phone</h2>
   <p>Your archive of exchanges (your photos, the photos you received and your reactions) is stored only on your phone. It is removed when you tap <strong>Settings &rarr; Delete account</strong> or delete the app.</p>
@@ -60,8 +60,8 @@
     <li>7 days after it was sent, if it did not pass our review,</li>
     <li>1 day after upload, if the exchange never happened.</li>
   </ul>
-  <p>Photos waiting to be delivered stay until they are. The exchange records (which anonymous account sent and received what, reactions, local time and country) are kept for as long as the beta runs and deleted no later than 30 days after it ends.</p>
-  <p>Tap <strong>Settings &rarr; Delete account</strong> in the app. This deletes the photos you sent and all data linked to your anonymous account from our server, and your archive from your phone. People who already received your photos may have kept them. If you can no longer use the app (for example you deleted it), your anonymous account cannot be linked to you and its data is deleted together with the rest of the beta data; you can also write to us.</p>
+  <p>Photos waiting to be delivered stay until they are. The exchange records (which account sent and received what, reactions, local time and country) are kept for as long as the beta runs and deleted no later than 30 days after it ends.</p>
+  <p>Tap <strong>Settings &rarr; Delete account</strong> in the app. This deletes your account (including your email), the photos you sent and all data linked to your account from our server, and your archive from your phone. People who already received your photos may have kept them. If you can no longer use the app, sign in again on another phone and delete the account there, or write to us from the email of your Google account.</p>
 
   <h2>Your rights</h2>
   <p>You have the right to access, correct and delete your data, to restrict or object to its processing and to data portability. Write to <a href="mailto:fligr.patrik@gmail.com">fligr.patrik@gmail.com</a>. You can also complain to the Czech Office for Personal Data Protection (<a href="https://uoou.gov.cz">uoou.gov.cz</a>) or the data protection authority in your country.</p>
